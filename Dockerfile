@@ -1,4 +1,4 @@
-FROM debian:9.4
+FROM debian:stretch
 
 apt -q update 
 apt install -y build-essential libncurses5-dev gawk git \
