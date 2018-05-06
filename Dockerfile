@@ -6,5 +6,5 @@ apt-get install -y build-essential libncurses5-dev gawk git \
     python bash-completion nano && \
 cd
 
-WORKDIR ~/lede
+WORKDIR /root/lede
 CMD ["bash"]
