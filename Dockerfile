@@ -6,7 +6,3 @@ apt-get install -y build-essential libncurses5-dev gawk git \
     python bash-completion nano && \
 cd
 
-ADD /script/ldcmd /root/ldcmd
-WORKDIR /root/lede
-
-CMD ["bash --init-file /root/ldcmd"]
