@@ -4,4 +4,3 @@ RUN apt-get -q update && \
 apt-get install -y build-essential libncurses5-dev gawk git \
     subversion libssl-dev gettext unzip zlib1g-dev file \
     python bash-completion nano wget
-ADD https://raw.githubusercontent.com/gzmud/prvscript/master/dockerscript /etc/
